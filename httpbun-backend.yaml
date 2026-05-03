@@ -1,0 +1,11 @@
+﻿apiVersion: gateway.kgateway.dev/v1alpha1
+kind: Backend
+metadata:
+  name: httpbun-backend
+  namespace: kgateway-system
+spec:
+  type: Static
+  static:
+    hosts:
+      - host: httpbun.default.svc.cluster.local
+        port: 3090
