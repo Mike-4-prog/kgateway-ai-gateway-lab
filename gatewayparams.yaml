@@ -1,0 +1,12 @@
+﻿apiVersion: gateway.kgateway.dev/v1alpha1
+kind: GatewayParameters
+metadata:
+  name: custom-envoy
+  namespace: kgateway-system
+spec:
+  kube:
+    envoyContainer:
+      image:
+        repository: envoy-wrapper
+        tag: test
+        pullPolicy: IfNotPresent
