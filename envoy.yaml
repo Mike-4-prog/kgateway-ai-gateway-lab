@@ -28,10 +28,10 @@
               "@type": type.googleapis.com/envoy.extensions.filters.http.dynamic_modules.v3.DynamicModuleFilter
               dynamic_module_config:
                 name: rust_module
-              filter_name: http_simple_mutations
+              filter_name: my-smart-header
               filter_config:
                 "@type": type.googleapis.com/google.protobuf.StringValue
-                value: "{}"
+                value: "header=X-Smart-Header;mode=transform"
           - name: envoy.filters.http.router
             typed_config:
               "@type": type.googleapis.com/envoy.extensions.filters.http.router.v3.Router
