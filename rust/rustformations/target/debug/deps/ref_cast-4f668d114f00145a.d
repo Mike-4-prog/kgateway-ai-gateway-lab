@@ -1,0 +1,12 @@
+C:\Users\HP ELITEBOOK 840 G3\ai-gateway-lab\rust\rustformations\target\debug\deps\ref_cast-4f668d114f00145a.d: C:\Users\HP\ ELITEBOOK\ 840\ G3\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ref-cast-1.0.25\src\lib.rs C:\Users\HP\ ELITEBOOK\ 840\ G3\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ref-cast-1.0.25\src\custom.rs C:\Users\HP\ ELITEBOOK\ 840\ G3\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ref-cast-1.0.25\src\layout.rs C:\Users\HP\ ELITEBOOK\ 840\ G3\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ref-cast-1.0.25\src\trivial.rs C:\Users\HP\ ELITEBOOK\ 840\ G3\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ref-cast-1.0.25\src\private.rs C:\Users\HP\ ELITEBOOK\ 840\ G3\ai-gateway-lab\rust\rustformations\target\debug\build\ref-cast-25fb43d3c2eb6e3e\out/private.rs
+
+C:\Users\HP ELITEBOOK 840 G3\ai-gateway-lab\rust\rustformations\target\debug\deps\libref_cast-4f668d114f00145a.rmeta: C:\Users\HP\ ELITEBOOK\ 840\ G3\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ref-cast-1.0.25\src\lib.rs C:\Users\HP\ ELITEBOOK\ 840\ G3\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ref-cast-1.0.25\src\custom.rs C:\Users\HP\ ELITEBOOK\ 840\ G3\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ref-cast-1.0.25\src\layout.rs C:\Users\HP\ ELITEBOOK\ 840\ G3\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ref-cast-1.0.25\src\trivial.rs C:\Users\HP\ ELITEBOOK\ 840\ G3\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ref-cast-1.0.25\src\private.rs C:\Users\HP\ ELITEBOOK\ 840\ G3\ai-gateway-lab\rust\rustformations\target\debug\build\ref-cast-25fb43d3c2eb6e3e\out/private.rs
+
+C:\Users\HP\ ELITEBOOK\ 840\ G3\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ref-cast-1.0.25\src\lib.rs:
+C:\Users\HP\ ELITEBOOK\ 840\ G3\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ref-cast-1.0.25\src\custom.rs:
+C:\Users\HP\ ELITEBOOK\ 840\ G3\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ref-cast-1.0.25\src\layout.rs:
+C:\Users\HP\ ELITEBOOK\ 840\ G3\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ref-cast-1.0.25\src\trivial.rs:
+C:\Users\HP\ ELITEBOOK\ 840\ G3\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ref-cast-1.0.25\src\private.rs:
+C:\Users\HP\ ELITEBOOK\ 840\ G3\ai-gateway-lab\rust\rustformations\target\debug\build\ref-cast-25fb43d3c2eb6e3e\out/private.rs:
+
+# env-dep:OUT_DIR=C:\\Users\\HP ELITEBOOK 840 G3\\ai-gateway-lab\\rust\\rustformations\\target\\debug\\build\\ref-cast-25fb43d3c2eb6e3e\\out

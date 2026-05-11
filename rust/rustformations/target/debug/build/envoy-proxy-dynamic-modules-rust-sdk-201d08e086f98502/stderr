@@ -1,0 +1,22 @@
+clang version 22.1.5 (https://github.com/llvm/llvm-project 5ea218a153f4d2f815b8244eab3e4b4ba5e00e6c)
+Target: x86_64-pc-windows-msvc
+Thread model: posix
+InstalledDir: 
+ignoring nonexistent directory "lib\clang\22\include"
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\winrt
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt
+End of search list.
+Could not parse TOML: TOML parse error at line 1, column 28
+  |
+1 | ../../../../../rustfmt.toml
+  |                            ^
+missing value for key, expected `=`
+
+Failed to run rustfmt: Internal rustfmt error (non-fatal, continuing)

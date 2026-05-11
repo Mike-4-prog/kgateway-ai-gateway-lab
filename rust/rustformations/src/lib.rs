@@ -60,11 +60,11 @@ fn new_http_filter_config_fn<EC: EnvoyHttpFilterConfig, EHF: EnvoyHttpFilter>(
     };
     envoy_log_trace!("new_http_filter_config_fn: filter_config: {filter_config}");
     match filter_name {
-        "http_simple_mutations" => http_simple_mutations::FilterConfig::new(filter_config)
+        "rustformation" => http_simple_mutations::FilterConfig::new(filter_config)
             .map(|config| Box::new(config) as Box<dyn HttpFilterConfig<EHF>>),
         _ => panic!(
             "Unknown filter name: {}, known filters are {}",
-            filter_name, "http_simple_mutations"
+            filter_name, "rustformation"
         ),
     }
 }
@@ -79,11 +79,11 @@ fn new_http_filter_per_route_config_fn(name: &str, config: &[u8]) -> Option<Box<
     };
     envoy_log_trace!("new_http_filter_per_route_config_fn: per_route_config: {per_route_config}");
     match name {
-        "http_simple_mutations" => http_simple_mutations::PerRouteConfig::new(per_route_config)
+        "rustformation" => http_simple_mutations::PerRouteConfig::new(per_route_config)
             .map(|config| Box::new(config) as Box<dyn Any>),
         _ => panic!(
             "Unknown filter name: {}, known filters are {}",
-            name, "http_simple_mutations"
+            name, "rustformation"
         ),
     }
 }
